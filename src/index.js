@@ -75,10 +75,9 @@ ReactDOM.render(
 
 <HashRouter>
 
+    <Route exact path="/" component={Dashboard}/>
     <Route exact path="/signin" component={SignIn}/>
     <Route exact path="/signup" component={SignUp}/>
-
-    <Route exact path="/" component={Dashboard}/>
     <Route exact path="/loginlive" component={LoginLive}/>
     <Route exact path="/logindemo" component={LoginDemo}/>
     <Route exact path="/accountstatement" component={AccountStatement}/>
