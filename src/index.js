@@ -75,11 +75,9 @@ ReactDOM.render(
 
 <HashRouter>
 
-    {/* SignIn And SignUp */}
     <Route exact path="/signin" component={SignIn}/>
     <Route exact path="/signup" component={SignUp}/>
 
-    {/* Dashboard */}
     <Route exact path="/" component={Dashboard}/>
     <Route exact path="/loginlive" component={LoginLive}/>
     <Route exact path="/logindemo" component={LoginDemo}/>
@@ -101,10 +99,6 @@ ReactDOM.render(
     <Route exact path="/newpendingdeals" component={NewPendingDeals}/>
     <Route exact path="/newdeals" component={NewDeals}/>
    
-  
-
-
-    {/* Forex Bar */}
     <Route exact path="/whatforex" component={WhatForex}/>
     <Route exact path="/commodity" component={Commodity}/>
     <Route exact path="/indices" component={Indices}/>
@@ -113,13 +107,11 @@ ReactDOM.render(
     <Route exact path="/trading" component={Trading}/>
     <Route exact path="/account" component={Account}/>
 
-    {/* AboutUs Bar */}
     <Route exact path="/vision" component={Vision}/>
     <Route exact path="/benefits" component={Benefits}/>
     <Route exact path="/support" component={Support}/>
     <Route exact path="/helpcenter" component={HelpCenter}/>
 
-    {/* Trading Bar */}
     <Route exact path="/liveaccount" component={LiveAccount}/>
     <Route exact path="/accountcomparision" component={AccountComparision}/>
     <Route exact path="/accountverification" component={AccountVerification}/>
@@ -129,7 +121,6 @@ ReactDOM.render(
     <Route exact path="/premium" component={Premium}/>
     <Route exact path="/withdrawal" component={Withdrawal}/>
 
-    {/* Tools Bar */}
     <Route exact path="/dailymarket" component={DailyMarket}/>
     <Route exact path="/financial" component={Financial}/>
     <Route exact path="/timecharts" component={TimeCharts}/>
@@ -138,16 +129,12 @@ ReactDOM.render(
     <Route exact path="/livemarket" component={LiveMarket}/>
     <Route exact path="/educationpackage" component={EducationPackage}/>
 
-    {/* Legal Bar */}
     <Route exact path="/policy" component={Policy}/>
     <Route exact path="/disclaimer" component={Disclaimer}/>
     <Route exact path="/terms" component={Terms}/>
     <Route exact path="/riskcaution" component={RiskCaution}/>
 
-    {/* Contact Bar */}
     <Route exact path="/contactnew" component={ContactNew}/>
-    
-    
 
 </HashRouter>,
 document.getElementById("root"));
