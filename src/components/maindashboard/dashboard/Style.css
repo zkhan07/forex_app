@@ -1,0 +1,57 @@
+.body{
+    background-color: #fff;
+}
+
+.bar1{
+    text-align: center;
+    background-color: red;
+}
+
+.contact {
+    background-color: #e6e6e6;
+    text-align: center;
+    color: black;
+}
+
+.about {
+    background-color: #e6e6e6;
+}
+
+.service {
+    background-color: #f2f2f2;
+    
+}
+
+.footer {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.footer1 {
+    text-align: center;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+.footer2 {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: blue;
+}
+
+
+/* ------------------------------------------------ */
+
+.para1 {
+    text-align: justify;
+    letter-spacing: 0.1rem;
+}
+
+
+/* ------------------------------------------------ */
+
+
+
+.cont  {
+    background-color: #f2f2f2;
+}
