@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/forex_app/static/css/main.5f90ed18.chunk.css",
-    "main.js": "/forex_app/static/js/main.5a4c4deb.chunk.js",
-    "main.js.map": "/forex_app/static/js/main.5a4c4deb.chunk.js.map",
+    "main.js": "/forex_app/static/js/main.d13649d1.chunk.js",
+    "main.js.map": "/forex_app/static/js/main.d13649d1.chunk.js.map",
     "runtime-main.js": "/forex_app/static/js/runtime-main.4b6c3408.js",
     "runtime-main.js.map": "/forex_app/static/js/runtime-main.4b6c3408.js.map",
     "static/js/2.8697910f.chunk.js": "/forex_app/static/js/2.8697910f.chunk.js",
     "static/js/2.8697910f.chunk.js.map": "/forex_app/static/js/2.8697910f.chunk.js.map",
     "index.html": "/forex_app/index.html",
-    "precache-manifest.7583c6d6b86166ad2191844e6cd77dbf.js": "/forex_app/precache-manifest.7583c6d6b86166ad2191844e6cd77dbf.js",
+    "precache-manifest.1a62441ade50745786746b52a24fea2e.js": "/forex_app/precache-manifest.1a62441ade50745786746b52a24fea2e.js",
     "service-worker.js": "/forex_app/service-worker.js",
     "static/css/main.5f90ed18.chunk.css.map": "/forex_app/static/css/main.5f90ed18.chunk.css.map",
     "static/js/2.8697910f.chunk.js.LICENSE": "/forex_app/static/js/2.8697910f.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4b6c3408.js",
     "static/js/2.8697910f.chunk.js",
     "static/css/main.5f90ed18.chunk.css",
-    "static/js/main.5a4c4deb.chunk.js"
+    "static/js/main.d13649d1.chunk.js"
   ]
 }
