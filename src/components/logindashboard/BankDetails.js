@@ -1,6 +1,7 @@
 import React from "react";
 import LiveNavbar from "./livenavbar/LiveNavbar"
 import { Pagination } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 
 const BankDetails= () => {
@@ -26,7 +27,7 @@ const BankDetails= () => {
                                <h3>Bank Account</h3> 
                                </div>
                                <div className="right item">
-                               <a href="addbank"><button className="ui red button">ADD NEW BANK ACCOUNT</button></a>
+                               <Link to="/addbank"><button className="ui red button">ADD NEW BANK ACCOUNT</button></Link>
                                </div>
                            </div>
 

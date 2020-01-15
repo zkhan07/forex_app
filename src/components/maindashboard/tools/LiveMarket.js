@@ -14,7 +14,7 @@ const LiveMarket = () => {
 
 
             <div className="ui container">
-                <div className="ui two column grid">
+                <div className="doubling stackable ui two column grid">
 
                     <div className="ten wide column">
                     <div className="ui items">

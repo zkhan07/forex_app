@@ -1,6 +1,7 @@
 import React from "react";
 import LiveNavbar from "./livenavbar/LiveNavbar"
 import Pagination from "./Pagination";
+import { Link } from "react-router-dom";
 
 
 const Deposit = () => {
@@ -156,7 +157,7 @@ const Deposit = () => {
                             <h3>Deposit List </h3>
                             </div>
                             <div className="right item">
-                            <a href="adddeposit"> <button className="ui red button">ADD DEPOSIT</button> </a>
+                            <Link to="/adddeposit"> <button className="ui red button">ADD DEPOSIT</button> </Link>
                             </div>
                         </div>
 

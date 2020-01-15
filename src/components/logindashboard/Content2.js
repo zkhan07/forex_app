@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Content2 = () => {
     return(
@@ -23,27 +24,27 @@ const Content2 = () => {
 
                     
                         <div class="item">
-                            <a href="newdeals">
+                            <Link to="/newdeals">
                                 <button className="ui red button">
                                 NEW DEALS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
 
                         <div class="item">
-                            <a href="newpendingdeals">
+                            <Link to="/newpendingdeals">
                                 <button className="ui red button">
                                 NEW PENDING DEAL
                                 </button>
-                            </a>
+                            </Link>
                         </div>
             
                         <div class="item">
-                            <a href="#">
+                            <div>
                                 <button className="ui red button">
                                 ZOOM
                                 </button>	
-                            </a>
+                            </div>
                         </div>
 
                     

@@ -1,6 +1,7 @@
 import React from "react";
 import LiveNavbar from "./livenavbar/LiveNavbar"
 import Pagination from "./Pagination";
+import { Link } from "react-router-dom";
 
 
 const Withdraw = () => {
@@ -80,7 +81,7 @@ const Withdraw = () => {
                                 <h3>Withdrawal List</h3>
                                 </div>
                                 <div className="right item">
-                                <a href="addwithdraw"><button className="ui red button">ADD WITHDRAWAL</button></a>
+                                <Link to="/addwithdraw"><button className="ui red button">ADD WITHDRAWAL</button></Link>
                                 </div>
                             </div>
 
