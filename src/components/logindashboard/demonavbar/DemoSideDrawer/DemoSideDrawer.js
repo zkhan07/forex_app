@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import './DemoSideDrawer.css';
 
@@ -17,15 +18,15 @@ const LivesideDrawer = props => {
           <div class="doubling stackable ui menu">
             
           <div class="item">
-                <a href="loginlive"> 
+                <Link to="loginlive"> 
                     <button className="ui red button">
                         SWITCH TO LIVE ACCOUNT
                     </button> 
-                </a>
+                </Link>
 		    	</div>
 
           <div className="item">
-            <a href="/loginlive"> Dashboard </a>
+            <Link to="/loginlive"> Dashboard </Link>
           </div>
 
 
@@ -34,8 +35,8 @@ const LivesideDrawer = props => {
               <a> Deals </a>
                 <i class="dropdown icon"></i>
                   <div class="menu">
-                    <div class="item"> <a href="closedeals"> CLOSED DEALS </a></div>
-                    <div class="item"> <a href="accountstatement"> ACCOUNT STATEMENT</a> </div>
+                    <div class="item"> <Link to="closedeals"> CLOSED DEALS </Link></div>
+                    <div class="item"> <Link to="accountstatement"> ACCOUNT STATEMENT</Link> </div>
               </div>
             </div>
           </div>
@@ -46,7 +47,7 @@ const LivesideDrawer = props => {
               <a> User Name </a>
                 <i class="dropdown icon"></i>
                   <div class="menu">
-                    <div class="item"> <a href="/"> Log Out </a></div>
+                    <div class="item"> <Link to="/"> Log Out </Link></div>
               </div>
             </div>
           </div>

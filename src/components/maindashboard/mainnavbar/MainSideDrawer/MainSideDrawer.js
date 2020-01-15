@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import './MainSideDrawer.css';
 
@@ -22,7 +23,7 @@ const sideDrawer = props => {
             
             <div class="ui compact menu">
               <div class="item">
-                <a href="/"> Home </a>
+                <Link to="/"> Home </Link>
               </div>
             </div>
 
@@ -31,13 +32,13 @@ const sideDrawer = props => {
               <a href="#">Forex</a>
               <i class="dropdown icon"></i>
                 <div class="menu">
-                  <div class="item"> <a href="whatforex"> What is Forex? </a></div> 
-                  <div class="item"> <a href="commodity"> Commodities  </a></div> 
-                  <div class="item"> <a href="indices"> Indices </a></div> 
-                  <div class="item"> <a href="stocks">   Stocks </a></div> 
-                  <div class="item"> <a href="conditions"> profit4money Conditions </a></div> 
-                  <div class="item"> <a href="trading">  Trading FAQs </a></div> 
-                  <div class="item"> <a href="account"> Account Types </a></div> 
+                <div class="item"> <Link to="/whatforex"> What is Forex? </Link></div> 
+                  <div class="item"> <Link to="/commodity"> Commodities  </Link></div> 
+                  <div class="item"> <Link to="/indices"> Indices </Link></div> 
+                  <div class="item"> <Link to="/stocks">   Stocks </Link></div> 
+                  <div class="item"> <Link to="/conditions"> profit4money Conditions </Link></div> 
+                  <div class="item"> <Link to="/trading">  Trading FAQs </Link></div> 
+                  <div class="item"> <Link to="/account"> Account Types </Link></div> 
                 </div>
             </div>
           </div>
@@ -47,10 +48,10 @@ const sideDrawer = props => {
               <a href="#"> About Us</a>
               <i class="dropdown icon"></i>
                 <div class="menu">
-                  <div class="item"> <a href="vision"> Our Vision              </a> </div> 
-                  <div class="item"> <a href="benefits"> Trading Benefits        </a> </div> 
-                  <div class="item"> <a href="support"> Trading Support         </a> </div> 
-                  <div class="item"> <a href="helpcenter"> profit4money Help Center </a> </div>
+                  <div class="item"> <Link to="/vision"> Our Vision              </Link> </div> 
+                  <div class="item"> <Link to="/benefits"> Trading Benefits        </Link> </div> 
+                  <div class="item"> <Link to="/support"> Trading Support         </Link> </div> 
+                  <div class="item"> <Link to="/helpcenter"> profit4money Help Center </Link> </div>
                 </div>
               </div>
           </div>
@@ -60,14 +61,14 @@ const sideDrawer = props => {
           <a>Trading</a>
           <i class="dropdown icon"></i>
                   <div class="menu">
-            <div class="item"> <a href="liveaccount"> Open Live Account </a></div>
-            <div class="item"> <a href="accountcomparision"> Account Comparisions </a> </div>
-              <div class="item"> <a href="accountverification"> Account verification </a></div>
-            <div class="item"> <a href="tradingparameters"> Tradnig Parameters </a></div>
-            <div class="item"> <a href="tradingspreads"> Trading Spreads </a></div>
-            <div class="item"> <a href="losspolicy"> Stop Loss policy </a></div>
-              <div class="item"> <a href="premium"> Premium </a></div>
-            <div class="item"> <a href="withdrawal"> Withdrawl process </a></div>
+                  <div class="item"> <Link to="/liveaccount"> Open Live Account </Link></div>
+                  <div class="item"> <Link to="/accountcomparision"> Account Comparisions </Link> </div>
+                  <div class="item"> <Link to="/accountverification"> Account verification </Link></div>
+                  <div class="item"> <Link to="/tradingparameters"> Tradnig Parameters </Link></div>
+                  <div class="item"> <Link to="/tradingspreads"> Trading Spreads </Link></div>
+                  <div class="item"> <Link to="/losspolicy"> Stop Loss policy </Link></div>
+                  <div class="item"> <Link to="/premium"> Premium </Link></div>
+                  <div class="item"> <Link to="/withdrawal"> Withdrawl process </Link></div>
                   </div>
                   </div>
 		    </div>
@@ -76,15 +77,15 @@ const sideDrawer = props => {
  			    <div class="ui simple dropdown item">
 				<a>Tools</a>
 				<i class="dropdown icon"></i>
-                <div class="menu">
-		 		    <div class="item"> <a href="dailymarket"> Daily Market Review </a></div> 
-					<div class="item"> <a href="financial"> Finacial Calender  </a></div> 
-					<div class="item"> <a href="timecharts"> Real Time Charts </a></div> 
-					<div class="item"> <a href="signals"> Signals</a></div> 
-				    <div class="item"> <a href="platforms"> Platforms </a></div> 
-					<div class="item"> <a href="livemarket"> Live Market Rates </a></div> 
-			     	<div class="item"> <a href="educationpackage"> Education Package </a></div> 
-                </div>
+              <div class="menu">
+                <div class="item"> <Link to="/dailymarket"> Daily Market Review </Link></div> 
+                <div class="item"> <Link to="/financial"> Finacial Calender  </Link></div> 
+                <div class="item"> <Link to="/timecharts"> Real Time Charts </Link></div> 
+                <div class="item"> <Link to="/signals"> Signals</Link></div> 
+                <div class="item"> <Link to="/platforms"> Platforms </Link></div> 
+                <div class="item"> <Link to="/livemarket"> Live Market Rates </Link></div> 
+                <div class="item"> <Link to="/educationpackage"> Education Package </Link></div> 
+              </div>
                 </div>
                 </div>
 
@@ -92,11 +93,11 @@ const sideDrawer = props => {
             <div class="ui simple dropdown item">
               <a>Legal</a>
               <i class="dropdown icon"></i>
-                <div class="menu">
-                <div class="item"> <a href="policy"> Our Trading Policy </a></div> 
-                <div class="item"> <a href="disclaimer"> Disclaimer  </a></div> 
-                <div class="item"> <a href="terms"> Trading Terms </a></div> 
-                <div class="item"> <a href="riskcaution"> Risk Caution </a></div> 
+              <div class="menu">
+                <div class="item"> <Link to="/policy"> Our Trading Policy </Link></div> 
+                <div class="item"> <Link to="/disclaimer"> Disclaimer  </Link></div> 
+                <div class="item"> <Link to="/terms"> Trading Terms </Link></div> 
+                <div class="item"> <Link to="/riskcaution"> Risk Caution </Link></div> 
               </div>
             </div>
         </div>
@@ -104,21 +105,19 @@ const sideDrawer = props => {
 
             <div class="ui compact menu">
               <div class="item">
-                <a href="/contactnew"> Contact </a>
+                <Link to="/contactnew"> Contact </Link>
+              </div>
+            </div>
+            
+            <div class="ui compact menu">
+              <div class="item">
+                <Link to="/signin"> Login </Link>
               </div>
             </div>
 
-
-         
             <div class="ui compact menu">
               <div class="item">
-                <a href="/loginlive"> Login </a>
-              </div>
-            </div>
-
-            <div class="ui compact menu">
-              <div class="item">
-                <a href="/signup"> Register </a>
+                <Link to="/signup"> Register </Link>
               </div>
             </div>
           
