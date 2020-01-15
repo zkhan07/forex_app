@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31969b37bc3513257929330ea76acaea",
+    "revision": "b0ae0e0b4f169cd7156313a787330777",
     "url": "/forex_app/index.html"
   },
   {
-    "revision": "c43a51e643656fe8a74c",
+    "revision": "04db19bcab3fd7d20921",
     "url": "/forex_app/static/css/main.5f90ed18.chunk.css"
   },
   {
-    "revision": "3249634d1adbaf0049f6",
-    "url": "/forex_app/static/js/2.6d1e3f5a.chunk.js"
+    "revision": "c3f4438efbb47c197a5d",
+    "url": "/forex_app/static/js/2.7b5e1e51.chunk.js"
   },
   {
     "revision": "ccb2efdf0ceee47de12d3751094d475f",
-    "url": "/forex_app/static/js/2.6d1e3f5a.chunk.js.LICENSE"
+    "url": "/forex_app/static/js/2.7b5e1e51.chunk.js.LICENSE"
   },
   {
-    "revision": "c43a51e643656fe8a74c",
-    "url": "/forex_app/static/js/main.dd302a31.chunk.js"
+    "revision": "04db19bcab3fd7d20921",
+    "url": "/forex_app/static/js/main.3943b091.chunk.js"
   },
   {
     "revision": "1f092de5376089777955",
